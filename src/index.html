@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="styles.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Tauri App</title>
+	<script type="module" src="/main.js" defer></script>
+</head>
+
+<body>
+	<nav id="titlebar-container">
+		<span id="app-title">Yatta</span>
+	</nav>
+	<div class="radio-inputs">
+		<div class="radio">
+			<label class="radio">
+				<input type="radio" name="radio" checked />
+				<span class="name tablinks" onclick="openCity(event, 'start-content')">Start</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="radio" />
+				<span class="name tablinks" onclick="openCity(event, 'heist-content')">Heist</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="radio" />
+				<span class="name tablinks" onclick="openCity(event, 'macros-content')">Macros</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="radio" />
+				<span class="name tablinks" onclick="openCity(event, 'misc-content')">MISC</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="radio" />
+				<span class="name tablinks" onclick="openCity(event, 'update-content')">Update</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="radio" />
+				<span class="name tablinks" onclick="openCity(event, 'settings-content')">Settings</span>
+			</label>
+		</div>
+	</div>
+	
+	<div id="main-container">
+
+		<div id="start-content" class="tabcontent">
+			<div class="group-container">
+		<div class="tooltip">
+			<span class="group-title">first group</span>
+			<label class="cb-slidein">
+				<input id="no_save_checkbox" class="cb-slidein__input" type="checkbox" />
+				<span class="cb-slidein__box">
+					<svg width="12" height="9" viewBox="0 0 14 11" fill="none">
+						<polyline points="1,5.5 5,9.5 13,1" stroke="white" stroke-width="2.2" stroke-linecap="round"
+							stroke-linejoin="round" />
+					</svg>
+				</span>
+				<span class="tooltiptext">Bei der 2ten Cutszene aktivieren und nach dem man schon die Villa
+					verlassen hat, und ins Wasser läuft am besten 2mal bevor man im Wasser ist und während
+					man im Wasser ist Alt+F4 drücken aber nicht dirket hintereinander sondern mit kurzen Pausen
+					dazwischen</span>
+				<span class="cb-slidein__text">No Save</span>
+			</label>
+		</div>
+
+		<label class="cb-slidein">
+			<input class="cb-slidein__input" type="checkbox" />
+			<span class="cb-slidein__box">
+				<svg width="12" height="9" viewBox="0 0 14 11" fill="none">
+					<polyline points="1,5.5 5,9.5 13,1" stroke="white" stroke-width="2.2" stroke-linecap="round"
+						stroke-linejoin="round" />
+				</svg>
+			</span>
+			<span class="cb-slidein__text">AlwaysOnTop</span>
+		</label>
+
+		<label class="cb-slidein">
+			<input class="cb-slidein__input" type="checkbox" />
+			<span class="cb-slidein__box">
+				<svg width="12" height="9" viewBox="0 0 14 11" fill="none">
+					<polyline points="1,5.5 5,9.5 13,1" stroke="white" stroke-width="2.2" stroke-linecap="round"
+						stroke-linejoin="round" />
+				</svg>
+			</span>
+			<span class="cb-slidein__text">Flying</span>
+		</label>
+
+	</div>
+		</div>
+
+		<div id="heist-content" class="tabcontent">
+			<h3>heist</h3>
+		</div>
+
+		<div id="macros-content" class="tabcontent">
+			<h3>macros</h3>
+		</div>
+		<div id="misc-content" class="tabcontent">
+			<h3>misc</h3>
+		</div>
+
+		<div id="update-content" class="tabcontent">
+			<h3>update</h3>
+		</div>
+
+		<div id="settings-content" class="tabcontent">
+			<h3>settings</h3>
+		</div>
+	</div>
+	<script>
+		
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+	</script>
+</body>
+
+</html>

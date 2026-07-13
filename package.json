@@ -1,0 +1,17 @@
+{
+  "name": "yatta",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  },
+  "dependencies": {
+    "@tauri-apps/plugin-updater": "^2.10.1"
+  }
+}

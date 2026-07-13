@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "yatta",
+  "version": "0.1.0",
+  "identifier": "com.charlotte.yatta",
+  "build": {
+    "frontendDist": "../src"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "yatta",
+        "width": 800,
+        "height": 600,
+        "decorations": false,
+        "shadow": false,
+        "transparent": true,
+        "resizable": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "createUpdaterArtifacts": true,
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  },
+  "plugins": {
+    "updater": {
+      "windows": {
+        "installmode": "passive"
+      },
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEE2NTJBNDExNkRDNDQ4MjEKUldRaFNNUnRFYVJTcHBvTlFxVWhMSTFpMmJLWUcvclhEbEN3aEpLTTBJcEFwT3VyVTBlczVHWS8K.PEM",
+      "endpoints": [
+        "https://releases.myapp.com/{{target}}/{{arch}}/{{current_version}}",
+
+        "https://github.com/charlottchen-chan/yatta/releases/latest/download/latest.json"
+      ]
+    }
+  }
+}
