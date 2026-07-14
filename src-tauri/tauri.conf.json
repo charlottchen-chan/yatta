@@ -40,7 +40,7 @@
       "windows": {
         "installmode": "passive"
       },
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEE2NTJBNDExNkRDNDQ4MjEKUldRaFNNUnRFYVJTcHBvTlFxVWhMSTFpMmJLWUcvclhEbEN3aEpLTTBJcEFwT3VyVTBlczVHWS8K.PEM",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDJEMDY1Q0M5MENFMDVFMzgKUldRNFh1QU15VndHTFpoZlVGRUxKU2YxV1dmSWhvWENnOXhLUzNocGRtOWdyVThXY2dKRGZQaTMK.PEM",
       "endpoints": [
         "https://releases.myapp.com/{{target}}/{{arch}}/{{current_version}}",
 

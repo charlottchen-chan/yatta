@@ -198,3 +198,7 @@ nav {
 #start-content {
 	display: block;
 }
+
+#group-title > .tooltip {
+	background-color: red;
+}

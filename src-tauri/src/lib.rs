@@ -17,6 +17,11 @@ fn rockstar_games_save_ip_block() {
         .map_err(|e| e.to_string());
 }
 
+#[tauri::command]
+fn alwaysontop() {
+    
+}
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
