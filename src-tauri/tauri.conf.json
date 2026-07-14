@@ -40,10 +40,8 @@
       "windows": {
         "installmode": "passive"
       },
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDJEMDY1Q0M5MENFMDVFMzgKUldRNFh1QU15VndHTFpoZlVGRUxKU2YxV1dmSWhvWENnOXhLUzNocGRtOWdyVThXY2dKRGZQaTMK.PEM",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEFCRjUxRDEzNTU1Qzc0QUYKUldTdmRGeFZFeDMxcXdvb3VONFBkVGo2L0YrZUdRSGoxeFVHSUFqZmZWL0l0U0RYOGV1aFJ1T2QK",
       "endpoints": [
-        "https://releases.myapp.com/{{target}}/{{arch}}/{{current_version}}",
-
         "https://github.com/charlottchen-chan/yatta/releases/latest/download/latest.json"
       ]
     }
