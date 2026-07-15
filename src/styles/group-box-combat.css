@@ -1,0 +1,70 @@
+.hotkey-group-combat {
+	
+	/* overflow-y: scroll; */
+	background: #fde9cb;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #ffcf87;
+	height: max-content;
+}
+
+.hotkey-group-combat-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-combat {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-combat {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #ffcf87;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #ffcf87; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-combat {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #ffcf87;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-combat:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-combat:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-combat:hover {
+	transform: scale(.98);
+}

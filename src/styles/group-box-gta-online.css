@@ -1,0 +1,70 @@
+.hotkey-group-gta-online {
+	
+	/* overflow-y: scroll; */
+	background: #fffeb6;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #fff34b;
+	height: max-content;
+}
+
+.hotkey-group-gta-online-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-gta-online {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-gta-online {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #fff34b;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #fff34b; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-gta-online {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #fff34b;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-gta-online:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-gta-online:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-gta-online:hover {
+	transform: scale(.98);
+}

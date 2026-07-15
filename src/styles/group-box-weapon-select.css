@@ -1,0 +1,70 @@
+.hotkey-group-weapon-select {
+	
+	/* overflow-y: scroll; */
+	background: #dbfdcb;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #b3ff87;
+	height: max-content;
+}
+
+.hotkey-group-weapon-select-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-weapon-select {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-weapon-select {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #b3ff87;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #b3ff87; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-weapon-select {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #b3ff87;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-weapon-select:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-weapon-select:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-weapon-select:hover {
+	transform: scale(.98);
+}

@@ -1,0 +1,70 @@
+.hotkey-group-cars-bikes-boats {
+	
+	/* overflow-y: scroll; */
+	background: #e2cbfd;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #d987ff;
+	height: max-content;
+}
+
+.hotkey-group-cars-bikes-boats-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-cars-bikes-boats {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-cars-bikes-boats {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #d987ff;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #d987ff; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-cars-bikes-boats {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #d987ff;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-cars-bikes-boats:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-cars-bikes-boats:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-cars-bikes-boats:hover {
+	transform: scale(.98);
+}

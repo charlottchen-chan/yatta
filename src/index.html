@@ -1,53 +1,83 @@
 <!doctype html>
 <html lang="en">
+<!--  -->
+<!-- Headers -->
+<!--  -->
 
 <head>
 	<meta charset="UTF-8" />
-	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="styles/styles.css" />
+	<link rel="stylesheet" href="styles/group-box-general.css" />
+	<link rel="stylesheet" href="styles/group-box-movement.css" />
+	<link rel="stylesheet" href="styles/group-box-combat.css" />
+	<link rel="stylesheet" href="styles/group-box-weapon-select.css" />
+	<link rel="stylesheet" href="styles/group-box-vehicle-general.css" />
+	<link rel="stylesheet" href="styles/group-box-aircraft.css" />
+	<link rel="stylesheet" href="styles/group-box-aircraft.css" />
+	<link rel="stylesheet" href="styles/group-box-submersibles.css" />
+	<link rel="stylesheet" href="styles/group-box-parachute.css" />
+	<link rel="stylesheet" href="styles/group-box-cellphone.css" />
+	<link rel="stylesheet" href="styles/group-box-gta-online.css" />
+	<link rel="stylesheet" href="styles/group-box-gta-online-vehicles.css" />
+	<link rel="stylesheet" href="styles/group-box-gta-online-mission-creator.css" />
+	<link rel="stylesheet" href="styles/group-box-cars-bikes-boats.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Tauri App</title>
-	<script type="module" src="/main.js" defer></script>
 </head>
 
 <body>
+	<!--  -->
+	<!-- Titlebar -->
+	<!--  -->
 	<nav id="titlebar-container">
+		<img id="app-icon" src="assets\Custom-Icon-Design-Happy-Easter-Flower.ico"></img>
 		<span id="app-title">Yatta</span>
+		<span id="version_label"></span>
 	</nav>
-	<div class="radio-inputs">
+	<!--  -->
+	<!-- SidebarButtons -->
+	<!--  -->
+	<div class="sidebar">
 		<div class="radio">
 			<label class="radio">
 				<input type="radio" name="radio" checked />
-				<span class="name tablinks" onclick="openCity(event, 'start-content')">Start</span>
+				<span class="name tablinks" onclick="opencontent(event, 'start-content')">Start</span>
 			</label>
+
 			<label class="radio">
 				<input type="radio" name="radio" />
-				<span class="name tablinks" onclick="openCity(event, 'heist-content')">Heist</span>
+				<span class="name tablinks" onclick="opencontent(event, 'heist-content')">Heist</span>
 			</label>
+
 			<label class="radio">
 				<input type="radio" name="radio" />
-				<span class="name tablinks" onclick="openCity(event, 'macros-content')">Macros</span>
+				<span class="name tablinks" onclick="opencontent(event, 'macros-content')">Macros</span>
 			</label>
+
 			<label class="radio">
 				<input type="radio" name="radio" />
-				<span class="name tablinks" onclick="openCity(event, 'misc-content')">MISC</span>
+				<span class="name tablinks" onclick="opencontent(event, 'keybinds-content')">Keybinds</span>
 			</label>
+
 			<label class="radio">
 				<input type="radio" name="radio" />
-				<span class="name tablinks" onclick="openCity(event, 'update-content')">Update</span>
+				<span class="name tablinks" onclick="opencontent(event, 'Changelog-content')">Changelog</span>
 			</label>
+
 			<label class="radio">
 				<input type="radio" name="radio" />
-				<span class="name tablinks" onclick="openCity(event, 'settings-content')">Settings</span>
+				<span class="name tablinks" onclick="opencontent(event, 'settings-content')">Settings</span>
 			</label>
 		</div>
 	</div>
-
+	<!--  -->
+	<!-- Main Content Container -->
+	<!--  -->
 	<div id="main-container">
-
 		<div id="start-content" class="tabcontent">
-			<div class="group-container">
-					<p class="group-title">first group</p>
-				<div class="tooltip">
+			<div class="group-container"> <!-- Group Box -->
+				<p class="group-title">first group</p> <!-- Group Title -->
+				<div class="tooltip"> <!-- No Save Tooltip -->
 					<label class="cb-slidein">
 						<input id="no_save_checkbox" class="cb-slidein__input" type="checkbox" />
 						<span class="cb-slidein__box">
@@ -60,19 +90,19 @@
 							verlassen hat, und ins Wasser läuft am besten 2mal bevor man im Wasser ist und während
 							man im Wasser ist Alt+F4 drücken aber nicht dirket hintereinander sondern mit kurzen Pausen
 							dazwischen</span>
-						<span class="cb-slidein__text">No Sav</span>
+						<span class="cb-slidein__text">No Save</span>
 					</label>
 				</div>
 
 				<label class="cb-slidein">
-					<input class="cb-slidein__input" type="checkbox" />
+					<input id="always_on_top_checkbox" class="cb-slidein__input" type="checkbox" />
 					<span class="cb-slidein__box">
 						<svg width="12" height="9" viewBox="0 0 14 11" fill="none">
 							<polyline points="1,5.5 5,9.5 13,1" stroke="white" stroke-width="2.2" stroke-linecap="round"
 								stroke-linejoin="round" />
 						</svg>
 					</span>
-					<span class="cb-slidein__text">AlwaysOnTopi</span>
+					<span class="cb-slidein__text">AlwaysOnTop</span>
 				</label>
 
 				<label class="cb-slidein">
@@ -94,23 +124,49 @@
 		</div>
 
 		<div id="macros-content" class="tabcontent">
-			<h3>macros</h3>
-		</div>
-		<div id="misc-content" class="tabcontent">
-			<h3>misc</h3>
+			<div>
+				<div class="group-container">
+				</div>
+			</div>
 		</div>
 
-		<div id="update-content" class="tabcontent">
-			<h3>update</h3>
+		<div id="keybinds-content" class="tabcontent">
+			<div class="keybinds-background">
+
+			</div>
+		</div>
+
+		<div id="Changelog-content" class="tabcontent">
+
+			<textarea id="changelog_box" readonly></textarea>
 		</div>
 
 		<div id="settings-content" class="tabcontent">
 			<h3>settings</h3>
 		</div>
 	</div>
+
+	<script>
+		window.onload = function () {
+			fetch('changelog.log')
+				.then(Response => Response.text())
+				.then(data => {
+					document.getElementById("changelog_box").value = data;
+				})
+				.catch(err => console.error("file could not be readed"))
+
+			fetch('version.txt')
+				.then(Response => Response.text())
+				.then(data => {
+					document.getElementById("version_label").textContent = data;
+				})
+				.catch(err => console.error("file could not be readed", err))
+		}
+	</script>
+
 	<script>
 
-		function openCity(evt, cityName) {
+		function opencontent(evt, cityName) {
 			var i, tabcontent, tablinks;
 			tabcontent = document.getElementsByClassName("tabcontent");
 			for (i = 0; i < tabcontent.length; i++) {
@@ -124,6 +180,8 @@
 			evt.currentTarget.className += " active";
 		}
 	</script>
+	<script type="module" src="javascript/no_save.js" defer></script>
+	<script type="module" src="javascript/always_on_top.js" defer></script>
 </body>
 
 </html>

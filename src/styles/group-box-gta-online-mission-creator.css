@@ -1,0 +1,70 @@
+.hotkey-group-gta-online-mission-creator {
+	
+	/* overflow-y: scroll; */
+	background: #ce79aa;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #882760;
+	height: max-content;
+}
+
+.hotkey-group-gta-online-mission-creator-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-gta-online-mission-creator {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-gta-online-mission-creator {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #882760;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #882760; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-gta-online-mission-creator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #882760;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-gta-online-mission-creator:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-gta-online-mission-creator:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-gta-online-mission-creator:hover {
+	transform: scale(.98);
+}

@@ -1,0 +1,70 @@
+.hotkey-group-aircraft {
+	
+	/* overflow-y: scroll; */
+	background: #cbcefd;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #878fff;
+	height: max-content;
+}
+
+.hotkey-group-aircraft-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-aircraft {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-aircraft {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #878fff;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #878fff; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-aircraft {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #878fff;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-aircraft:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-aircraft:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-aircraft:hover {
+	transform: scale(.98);
+}

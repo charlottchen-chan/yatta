@@ -1,0 +1,70 @@
+.hotkey-group-gta-online-vehicles {
+	
+	/* overflow-y: scroll; */
+	background: #82cadb;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #1a586b;
+	height: max-content;
+}
+
+.hotkey-group-gta-online-vehicles-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-gta-online-vehicles {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-gta-online-vehicles {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #1a586b;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #1a586b; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-gta-online-vehicles {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #1a586b;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-gta-online-vehicles:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-gta-online-vehicles:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-gta-online-vehicles:hover {
+	transform: scale(.98);
+}

@@ -1,0 +1,70 @@
+.hotkey-group-movement {
+	
+	/* overflow-y: scroll; */
+	background: #cbe5fd;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #87d3ff;
+	height: max-content;
+}
+
+.hotkey-group-movement-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-movement {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-movement {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #87d3ff;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #87d3ff; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-movement {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #87d3ff;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-movement:hover {
+	background: #ff87bf;
+	transform: scale(.97);
+}
+.hotkey-movement:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-movement:hover {
+	transform: scale(.98);
+}

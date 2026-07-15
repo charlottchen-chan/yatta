@@ -1,0 +1,70 @@
+.hotkey-group-parachute {
+	
+	/* overflow-y: scroll; */
+	background: #ffb8b8;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #dd5151;
+	height: max-content;
+}
+
+.hotkey-group-parachute-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-parachute {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-parachute {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #ff8787;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #ff8787; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-parachute {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #ff8787;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-parachute:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-parachute:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-parachute:hover {
+	transform: scale(.98);
+}

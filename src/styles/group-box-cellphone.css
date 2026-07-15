@@ -1,0 +1,70 @@
+.hotkey-group-cellphone {
+	
+	/* overflow-y: scroll; */
+	background: #833a58;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #b65173;
+	height: max-content;
+}
+
+.hotkey-group-cellphone-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-cellphone {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-cellphone {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #b65173;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #b65173; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-cellphone {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #b65173;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-cellphone:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-cellphone:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-cellphone:hover {
+	transform: scale(.98);
+}

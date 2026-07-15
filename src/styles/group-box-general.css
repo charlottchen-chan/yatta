@@ -1,0 +1,70 @@
+.hotkey-group-general {
+	
+	/* overflow-y: scroll; */
+	background: #fdcbe2;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #ff87bf;
+	height: max-content;
+}
+
+.hotkey-group-general-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-general {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-general {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #ff87bf;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #ff87bf; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-general {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #ff87bf;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-general:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-general:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-general:hover {
+	transform: scale(.98);
+}

@@ -1,0 +1,70 @@
+.hotkey-group-submersibles {
+	
+	/* overflow-y: scroll; */
+	background: #e4ff9b;
+	width: 100%;
+	padding: 20px;
+	border-radius: 2rem;
+	border: 2px solid #c1ff5e;
+	height: max-content;
+}
+
+.hotkey-group-submersibles-name {
+	position: relative;
+	color: rgba(51, 65, 85, 1);
+}
+
+.hotkey-container-submersibles {
+	background: transparent;
+	margin-top: 10px;
+	width: 100%;
+	
+}
+
+.first-hotkey-box {
+	margin-top: 20px;
+}
+
+.hotkey-box-submersibles {
+	display: flex;
+	padding: 5px;
+	background: transparent;
+	border: 2px solid #c1ff5e;
+	border-radius: 2rem;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.hotkey-label {
+	display: flex;
+	height: 100%;
+	/* border: 2px solid #c1ff5e; */
+	width: max-content;
+	margin-left: 20px;
+	align-items: center;
+	
+}
+
+.hotkey-submersibles {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	border: 2px solid #c1ff5e;
+	border-radius: 2rem;
+	width: 7rem;
+}
+
+.hotkey-submersibles:hover {
+	background: #ffdca8;
+	transform: scale(.97);
+}
+.hotkey-submersibles:active {
+	transform: scale(.95);
+}
+
+.hotkey-box-submersibles:hover {
+	transform: scale(.98);
+}
